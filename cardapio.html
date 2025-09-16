@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - FatecBurguer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon_hamburger_colors.png" type="image/png">
+    <style>
+        .menu-section {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        
+        .menu-section h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+        
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        
+        .menu-item {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            max-width: 300px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .menu-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        
+        .menu-item h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .menu-item p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/new_logo_hamburger_colors.png" alt="Logo FatecBurguer">
+            <h1>FatecBurguer</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <h2>Nosso Cardápio</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="images/burger1.jpg" alt="Burger Clássico">
+                    <h3>Burger Clássico</h3>
+                    <p>Hambúrguer artesanal, queijo, alface, tomate e molho especial</p>
+                    <div class="price">R$ 25,90</div>
+                </div>
+                
+                <div class="menu-item">
+                    <img src="images/burger_frango.jpg" alt="Burger de Frango">
+                    <h3>Burger de Frango</h3>
+                    <p>Hambúrguer de frango crocante, alface, tomate e maionese especial</p>
+                    <div class="price">R$ 23,90</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/burger_vegetariano.jpg" alt="Burger Vegetariano">
+                    <h3>Burger Vegetariano</h3>
+                    <p>Hambúrguer de grão-de-bico, queijo vegano e vegetais frescos</p>
+                    <div class="price">R$ 28,90</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/hot_dog_gourmet.jpg" alt="Hot Dog Gourmet">
+                    <h3>Hot Dog Gourmet</h3>
+                    <p>Salsicha especial, molho da casa, crispy de cebola e queijo</p>
+                    <div class="price">R$ 18,90</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/sanduiche_carne.jpg" alt="Sanduíche de Carne Louca">
+                    <h3>Sanduíche de Carne Louca</h3>
+                    <p>Carne desfiada, queijo derretido e vinagrete no pão francês</p>
+                    <div class="price">R$ 27,90</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/salada_fresca.jpg" alt="Salada Fresca">
+                    <h3>Salada Fresca</h3>
+                    <p>Mix de folhas, tomate cereja, pepino, cenoura e molho especial</p>
+                    <div class="price">R$ 19,90</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/brownie.jpg" alt="Brownie com Sorvete">
+                    <h3>Brownie com Sorvete</h3>
+                    <p>Brownie de chocolate com nozes e uma bola de sorvete de creme</p>
+                    <div class="price">R$ 16,90</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/refrigerante.jpg" alt="Refrigerante Lata">
+                    <h3>Refrigerante</h3>
+                    <p>Coca-Cola, Guaraná ou Sprite - 350ml</p>
+                    <div class="price">R$ 6,90</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/suco_natural.jpg" alt="Suco Natural">
+                    <h3>Suco Natural</h3>
+                    <p>Sabores variados: laranja, abacaxi, maracujá</p>
+                    <div class="price">R$ 8,90</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/agua_mineral.jpg" alt="Água Mineral">
+                    <h3>Água Mineral</h3>
+                    <p>Com ou sem gás - 500ml</p>
+                    <div class="price">R$ 4,90</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FatecBurguer. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
